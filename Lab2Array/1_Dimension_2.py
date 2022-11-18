@@ -1,0 +1,21 @@
+# exercise 2
+arr = [7,5,10,14,3,9,7]
+arr2 = [9,10,3,4,2,5,7,1]
+print(f'arr1 = {arr}')
+print(f'arr2 = {arr2}')
+print(f'length of arr1 = {len(arr)}')
+print(f'length of arr2 = {len(arr2)}')
+arr.append(15)
+print(f'index 7 in arr1 = {arr[7]}')
+print(f'index 7 in arr2 = {arr2[7]}')
+arr.append(1)
+arr2.append(14)
+arr3 = arr.copy()
+arr3.extend(arr2)
+print(f'count 7 in arr3 = {arr3.count(7)}')
+arr3.sort()
+arr3.remove(7)
+arr4 = arr3.copy()
+arr4.reverse()
+print(arr3)
+print(arr4)
